@@ -48,7 +48,7 @@ paru -S otf-apple-pingfang ttf-apple-emoji ttf-maplemono
 paru -S ttf-mac-fonts
 ```
 
-debian,ubuntu系自行进入以下仓库下载字体，然后把字体放到`/usr/share/fonts`里去，等价于上述arch linux的安装操作。
+> debian,ubuntu系自行进入以下仓库下载字体，然后把字体放到`/usr/share/fonts`里去，等价于上述arch linux的安装操作。
 
 ### 最后，移动配置文件，然后注销/重启
 下载仓库的`fonts.conf`,把文件移动到`/home/wuxuming/.config/fontconfig/`,然后注销当前登陆或重启，即可享受字体。
