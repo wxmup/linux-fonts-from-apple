@@ -1,6 +1,8 @@
 # linux-fonts-from-apple
 
 ## 方案
+
+**仿mac os的字体方案，为了获得更加和谐的字体显示。**
 - 中文字体: 苹方字体
 - 英文字体： Inter 
 - 等宽字体： maple font mono
