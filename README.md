@@ -35,7 +35,6 @@
 安装inter：
 ```
 sudo pacman -S inter-font
-
 ```
 
 安装苹方字体，苹果emoji，和maple等宽字体：(如使用yay,替换'paru'即可):
@@ -50,8 +49,10 @@ paru -S ttf-mac-fonts
 
 > debian,ubuntu系自行进入以下仓库下载字体，然后把字体放到`/usr/share/fonts`里去，等价于上述arch linux的安装操作。
 
+
 ### 最后，移动配置文件，然后注销/重启
 下载仓库的`fonts.conf`,把文件移动到`/home/wuxuming/.config/fontconfig/`,然后注销当前登陆或重启，即可享受字体。
+
 
 ## fonts.conf定制
 fonts.conf上已经对各种类型定义好了，按需修改即可:
@@ -60,6 +61,8 @@ fonts.conf上已经对各种类型定义好了，按需修改即可:
 - 衬线字体
 - 等宽字体
 - 强制替换网站的字体为自己想要的字体
+
+### 示例
 
 例如，你想要将默认的等宽字体改成Sf Pro Mono:
 ![图片](https://github.com/user-attachments/assets/30608173-b1b5-4540-ac42-3875b98eef14)
