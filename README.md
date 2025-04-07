@@ -56,21 +56,23 @@ paru -S ttf-mac-fonts
 下载仓库的`fonts.conf`,把文件移动到`/home/wuxuming/.config/fontconfig/`,然后注销当前登陆或重启，即可享受字体。
 
 
-## fonts.conf定制
-fonts.conf上已经对各种类型定义好了，按需修改即可:
-- 中文字体
+## fonts.conf说明
+
+不必添加渲染设置，因为你的字体渲染引擎已经默认启用如下的渲染设置：
+- 抗锯齿
+- BCI（字节码解释器）
+- 微调风格-hintslight
+- 次像素排列（RGBA）
+- LCD滤镜：lcddefault
+
+### fonts.conf定制
+
+fonts.conf上已经定义好了各种类型的字体，按需修改即可:
 - 无衬线字体
 - 衬线字体
 - 等宽字体
-- 强制替换网站的字体为自己想要的字体
 
-### 示例
 
-例如，你想要将默认的等宽字体改成Sf Pro Mono:
-![图片](https://github.com/user-attachments/assets/30608173-b1b5-4540-ac42-3875b98eef14)
-
-**把圈着的字体改为Sf Pro Mono即可**
-![图片](https://github.com/user-attachments/assets/d33b0f07-9e4c-44aa-8ebf-1f7d41cc96e5)
 
 
 
