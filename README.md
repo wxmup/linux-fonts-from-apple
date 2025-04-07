@@ -8,7 +8,7 @@
 - 等宽字体： maple font mono
 - emoji： apple color emoji
 
-*英文字体不用sf pro,因为在部分网站上(如phoronix)表现不理想，西文会过于紧凑。*
+英文字体不用sf pro,因为在部分网站上(如phoronix)表现不理想，西文会过于紧凑。
 **inter在各个网站的表现都比较一致。并且inter的字体风格本来就类似于sf pro。**
 
 
