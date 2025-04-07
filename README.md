@@ -58,7 +58,7 @@ paru -S ttf-mac-fonts
 
 ## fonts.conf说明
 
-不必添加渲染设置，因为你的字体渲染引擎已经默认启用如下的渲染设置：
+不必添加渲染设置，因为arch linux的字体渲染引擎已经默认启用如下的渲染设置：
 - 抗锯齿
 - BCI（字节码解释器）
 - 微调风格-hintslight
