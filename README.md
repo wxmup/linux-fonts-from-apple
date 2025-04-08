@@ -1,4 +1,4 @@
-# linux-fonts-from-apple
+# linux-fonts-from-apple_style-font
 
 ## 方案
 
@@ -32,6 +32,9 @@
 
 
 ## 用法
+
+1. 安装字体
+2. 移动我写好的`fonts.conf`到文件夹.重启/注销登陆后**字体配置会自动生效**.
 
 ### 首先，安装字体(对于arch)：
 安装inter：
@@ -67,7 +70,7 @@ paru -S ttf-mac-fonts
 
 ### fonts.conf定制
 
-fonts.conf上已经定义好了各种类型的字体，按需修改即可:
+fonts.conf上已经定义好了各种类型的字体，并且有注释, 按需修改即可:
 - 无衬线字体
 - 衬线字体
 - 等宽字体
