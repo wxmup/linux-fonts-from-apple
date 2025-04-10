@@ -1,4 +1,4 @@
-# linux-fonts-from-apple_style-font
+# linux-fonts-from-apple_style_fonts
 
 ## 方案
 
@@ -8,8 +8,8 @@
 - 等宽字体： maple font mono
 - emoji： apple color emoji
 
-不建议使用苹果的SF Pro作为西文字体, 因为在部分老旧的网站上(如phoronix)表现不理想，西文会显得过于紧凑。
-**inter在各个网站的表现都比较一致。并且inter的字体风格本来就类似于sf pro, 和苹方字体搭配很和谐。**
+不建议使用苹果的SF Pro作为西文字体, 因为在部分老旧的网站上(如phoronix)表现不理想，西文的排布过于紧凑。
+**Inter在各个网站的表现都比较一致。并且Inter的字体风格本来就类似于SF Pro, 和苹方字体搭配很和谐。**
 
 
 ## 效果
