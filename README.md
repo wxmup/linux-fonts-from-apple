@@ -44,7 +44,7 @@ sudo pacman -S inter-font
 
 安装苹方字体，苹果emoji，和maple等宽字体：(如使用yay,替换'paru'即可):
 ```
-paru -S otf-apple-pingfang ttf-apple-emoji ttf-maplemono
+paru -S otf-apple-pingfang ttf-apple-emoji ttf-maplemono-nf-unhinted
 ```
 
 如果硬是要sf-pro系列字体(sf-pro,sf-pro-mono):
