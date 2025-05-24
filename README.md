@@ -56,7 +56,7 @@ paru -S ttf-mac-fonts
 
 
 ### 最后，移动配置文件，然后注销/重启
-下载仓库的`fonts.conf`,把文件移动到`/home/wuxuming/.config/fontconfig/`,然后注销当前登陆或重启，即可享受字体。
+下载仓库的`fonts.conf`,把文件移动到`~/.config/fontconfig/`,然后注销当前登陆或重启，即可享受字体。
 
 
 ## fonts.conf说明
