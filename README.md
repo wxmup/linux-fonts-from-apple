@@ -1,5 +1,8 @@
 # linux-fonts-from-apple_style_fonts
 
+linux默认采用的一般是思源黑体(Noto fons CJK / Souce Hans CJK)为中文字体和noto fonts作为西文字体，但是这些字体相对比较胖，个人更喜欢修长的字体。
+苹果的字体质量是比较高的，故有以下方案。
+
 ## 方案
 
 **仿mac os的字体方案，为了获得更加和谐的字体显示。**
@@ -8,7 +11,8 @@
 - 等宽字体： maple font mono
 - emoji： apple color emoji
 
-不建议使用苹果的SF Pro作为西文字体, 因为在部分老旧的网站上(如phoronix)表现不理想，西文的排布过于紧凑。
+tips：
+> 不建议在linux上使用苹果的SF Pro作为西文字体, 网页显示表现不佳，字体间距很紧凑，非常奇怪。SF Pro Display好一点，但是还是没有Inter的间距协调。
 **Inter在各个网站的表现都比较一致。并且Inter的字体风格本来就类似于SF Pro, 和苹方字体搭配很和谐。**
 
 
