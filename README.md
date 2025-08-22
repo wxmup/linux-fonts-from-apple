@@ -63,6 +63,26 @@ paru -S ttf-mac-fonts
 下载仓库的`fonts.conf`,把文件移动到`~/.config/fontconfig/`,然后注销当前登陆或重启，即可享受字体。
 
 
+## 字体优先级问题与解决方案
+
+是的。你可能会发现某些网站会仍然会优先使用noto sans,而不是inter. 有些网站优先使用noto sans mono,而不是maple.
+
+你可以这样关掉firefox的这个设置，让网站使用系统指定的字体，但这样做并不完美，极有可能遇到网站字体显示的兼容性问题，因为有些网站字体安排的乱七八糟的。
+<img width="1428" height="1154" alt="图片" src="https://github.com/user-attachments/assets/8e90d197-4ffb-4d1e-b99a-4eb7d3540f6c" />
+
+你也可以直接修改系统文件，手动编排字体之间的优先级，这样做：
+``
+sudo nano /etc/fonts/conf.d/60-latin.conf
+``
+
+然后在sans-serif标签和monospace标签，手动添加优先级最高的字体到第一行。如图：
+<img width="1680" height="1214" alt="图片" src="https://github.com/user-attachments/assets/d39bda4a-226e-4dec-bfd0-a5110ce34ca4" />
+<img width="1680" height="1214" alt="图片" src="https://github.com/user-attachments/assets/328b7ab0-0c57-41c0-af3e-f1da39a5df0e" />
+
+至此，理论上在大部分网站的字体显示都会达到预期。
+
+
+
 ## fonts.conf说明
 
 arch linux不必特意添加渲染设置，因为字体渲染引擎已经默认启用如下的渲染设置(字体微调)：
