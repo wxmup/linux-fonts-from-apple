@@ -1,19 +1,19 @@
-# linux-fonts-from-apple_style_fonts
+# 获得类似 mac os 的字体体验
 
-linux默认采用的一般是思源黑体(Noto fons CJK / Souce Hans CJK)为中文字体和noto fonts作为西文字体，但是这些字体相对比较胖，个人更喜欢修长的字体。
-苹果的字体质量是比较高的，故有以下方案。
+不喜欢linux默认使用的中文字体（Noto fons CJK / Souce Hans CJK）和西文字体（noto fonts），个人更喜欢修长的字体。
+苹果的字体刚好符合我的要求，故有以下方案。
 
 ## 方案
 
-**仿mac os的字体方案，为了获得更加和谐的字体显示。**
 - 中文字体: 苹方字体
-- 英文字体： Inter 
-- 等宽字体： maple font mono
-- emoji： apple color emoji
+- 英文字体： Inter Variable
+- 等宽字体： Maple Mono NF CN
+- emoji： Apple Color Emoji
+
+**平方字体和苹果emoji不必多说。Inter风格类似于SF Pro，而且支持可变字体。Maple字体有着圆润修长的字形和连字，内嵌等宽中文字体和Nerd图标，可读性很强。**
 
 tips：
-> 不建议在linux上使用苹果的SF Pro作为西文字体, 网页显示表现不佳，字体间距很紧凑，非常奇怪。SF Pro Display好一点，但是还是没有Inter的间距协调。
-**Inter在各个网站的表现都比较一致。并且Inter的字体风格本来就类似于SF Pro, 和苹方字体搭配很和谐。**
+> 不用SF Pro，因为SF Pro的字体间隔会很奇怪。非要用的话可以试试aur上打了mac补丁的freetype（https://aur.archlinux.org/packages/freetype2-macos）。SF Pro Display好一点，但是还是没有Inter的间距协调。
 
 
 ## 效果
