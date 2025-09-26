@@ -11,7 +11,7 @@
 - 英文字体： Inter
 - 等宽字体： Maple Mono CN
 - emoji： Apple Color Emoji
-- symbol: symbols nerd font mono
+- icon： Symbols Nerd Font Mono
 
 **平方字体和苹果emoji不必多说。Inter风格类似于SF Pro。Maple字体有着圆润修长的字形和连字，并且使用symbols获得正确的终端icon显示**
 
