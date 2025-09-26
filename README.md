@@ -8,11 +8,12 @@
 # 方案
 
 - 中文字体: 苹方字体
-- 英文字体： Inter Variable
-- 等宽字体： Maple Mono NF CN
+- 英文字体： Inter
+- 等宽字体： Maple Mono CN
 - emoji： Apple Color Emoji
+- symbol: symbols nerd font mono
 
-**平方字体和苹果emoji不必多说。Inter风格类似于SF Pro，而且支持可变字体。Maple字体有着圆润修长的字形和连字，内嵌等宽中文字体和Nerd图标，可读性很强。**
+**平方字体和苹果emoji不必多说。Inter风格类似于SF Pro。Maple字体有着圆润修长的字形和连字，并且使用symbols获得正确的终端icon显示**
 
 > 不用SF Pro，因为SF Pro的小字体字体间隔会很奇怪。非要用的话可以试试aur上打了mac补丁的 [freetype](https://aur.archlinux.org/packages/freetype2-macos) 。
 
@@ -25,12 +26,15 @@
 <img width="1879" height="1036" alt="图片" src="https://github.com/user-attachments/assets/51f702f1-25ba-4714-b1ff-4fce5cb8d23f" />
 
 ### 等宽
-
-<img width="2480" height="1482" alt="图片" src="https://github.com/user-attachments/assets/67c8c018-ed01-44ed-b5c3-a47815fc48d5" />
+<img width="2320" height="1548" alt="图片" src="https://github.com/user-attachments/assets/2eb42bd4-ba1f-49c7-97ac-57348699b04e" />
 
 ### emoji
 
 <img width="806" height="658" alt="图片" src="https://github.com/user-attachments/assets/65569daa-56b9-4327-bc11-57d4344f4614" />
+
+### 终端icon图标显示
+
+<img width="2320" height="1548" alt="图片" src="https://github.com/user-attachments/assets/3597c615-6244-443c-ab38-c5b5c569b2ce" />
 
 
 
@@ -42,31 +46,19 @@
 
 首先，输入命令(如使用`paru`,替换'yay'即可)：
 ```
-sudo pacman -S inter-font
+sudo pacman -S inter-font ttf-nerd-fonts-symbols-mono 
 yay -S otf-apple-pingfang ttf-apple-emoji ttf-maplemono-nf-unhinted
 ```
 
 最后，把文件放到`~/.config/fontconfig/`里去，重启/注销登陆后**字体配置会自动生效**。
 
+> tips: 下载ttf-maplemono-nf-unhinted时，aur会默认拉取maple的所有的分支，然后只安装其中的ttf-maplemono-nf-unhinted。无解，介意请使用arch linux cn.
+
 
 
 # 字体优先级问题与解决方案
 
-是的。你可能会发现某些网站会仍然会优先使用noto sans,而不是inter. 有些网站优先使用noto sans mono,而不是maple.
-
-你可以这样关掉firefox的这个设置，让网站使用系统指定的字体，但这样做并不完美，极有可能遇到网站字体显示的兼容性问题，因为有些网站字体安排的乱七八糟的。
-<img width="1428" height="1154" alt="图片" src="https://github.com/user-attachments/assets/8e90d197-4ffb-4d1e-b99a-4eb7d3540f6c" />
-
-你也可以直接修改系统文件，手动编排字体之间的优先级，这样做：
-``
-sudo nano /etc/fonts/conf.d/60-latin.conf
-``
-
-然后在sans-serif标签和monospace标签，手动添加优先级最高的字体到第一行。如图：
-<img width="1680" height="1214" alt="图片" src="https://github.com/user-attachments/assets/d39bda4a-226e-4dec-bfd0-a5110ce34ca4" />
-<img width="1680" height="1214" alt="图片" src="https://github.com/user-attachments/assets/328b7ab0-0c57-41c0-af3e-f1da39a5df0e" />
-
-至此，理论上在大部分网站的字体显示都会达到预期。
+就我的使用场景，新版文件已解决问题，理论上不需要在手动设置。如有问题请提issue.
 
 
 
