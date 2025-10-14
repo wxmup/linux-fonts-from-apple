@@ -47,7 +47,7 @@
 首先，输入命令(如使用`paru`,替换'yay'即可)：
 ```
 sudo pacman -S inter-font ttf-nerd-fonts-symbols-mono 
-yay -S otf-apple-pingfang ttf-apple-emoji ttf-maplemono-nf-unhinted
+yay -S otf-apple-pingfang ttf-apple-emoji ttf-maplemono-nf-cn-unhinted
 ```
 
 最后，把文件放到`~/.config/fontconfig/`里去，重启/注销登陆后**字体配置会自动生效**。
