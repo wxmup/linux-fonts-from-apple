@@ -1,4 +1,4 @@
-<img width="2538" height="1258" alt="image" src="https://github.com/user-attachments/assets/0ef3303a-b5cd-4695-9c6f-77e0c9a52441" /># 获得类似 mac os 的字体体验
+# 获得类似 mac os 的字体体验
 
 不喜欢linux默认使用的中文字体（Noto fons CJK / Souce Hans CJK）和西文字体（noto fonts），个人更喜欢修长的字体。
 苹果的字体刚好符合我的要求，故有以下方案。
