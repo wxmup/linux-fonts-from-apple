@@ -1,4 +1,4 @@
-# 获得类似 mac os 的字体体验
+<img width="2538" height="1258" alt="image" src="https://github.com/user-attachments/assets/0ef3303a-b5cd-4695-9c6f-77e0c9a52441" /># 获得类似 mac os 的字体体验
 
 不喜欢linux默认使用的中文字体（Noto fons CJK / Souce Hans CJK）和西文字体（noto fonts），个人更喜欢修长的字体。
 苹果的字体刚好符合我的要求，故有以下方案。
@@ -47,12 +47,12 @@
 首先，输入命令(如使用`paru`,替换'yay'即可)：
 ```
 sudo pacman -S inter-font ttf-nerd-fonts-symbols-mono 
-yay -S otf-apple-pingfang ttf-apple-emoji ttf-maplemono-nf-unhinted
+yay -S otf-apple-pingfang ttf-apple-emoji ttf-maplemono-cn-unhinted
 ```
 
 最后，把文件放到`~/.config/fontconfig/`里去，重启/注销登陆后**字体配置会自动生效**。
 
-> tips: 下载ttf-maplemono-nf-unhinted时，aur会默认拉取maple的所有的分支，然后只安装其中的ttf-maplemono-nf-unhinted。无解，介意请使用arch linux cn.
+> tips: 下载ttf-maplemono-nf-unhinted时，aur会默认下载maple的所有的分支，然后只安装其中的ttf-maplemono-cn-unhinted。无解，介意请使用arch linux cn.
 
 
 
