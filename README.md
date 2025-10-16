@@ -21,20 +21,24 @@
 
 # 效果
 
-### 中文字体和英文字体混搭效果
+### 中文和英文效果
 
-<img width="1879" height="1036" alt="图片" src="https://github.com/user-attachments/assets/51f702f1-25ba-4714-b1ff-4fce5cb8d23f" />
+<img width="1600" height="409" alt="图片" src="https://github.com/user-attachments/assets/e719032c-b2b9-462d-876b-f998abb6af92" />
 
-### 等宽
-<img width="2320" height="1548" alt="图片" src="https://github.com/user-attachments/assets/2eb42bd4-ba1f-49c7-97ac-57348699b04e" />
+
+### 等宽展示
+<img width="2306" height="1580" alt="图片" src="https://github.com/user-attachments/assets/dadd2bd2-5c89-4ef0-af9b-7ae650f68e2a" />
+
 
 ### emoji
 
-<img width="806" height="658" alt="图片" src="https://github.com/user-attachments/assets/65569daa-56b9-4327-bc11-57d4344f4614" />
+<img width="1370" height="1180" alt="图片" src="https://github.com/user-attachments/assets/8105900c-2a35-4528-b2f9-d1d196db650d" />
+
 
 ### 终端icon图标显示
 
-<img width="2320" height="1548" alt="图片" src="https://github.com/user-attachments/assets/3597c615-6244-443c-ab38-c5b5c569b2ce" />
+<img width="2306" height="1580" alt="图片" src="https://github.com/user-attachments/assets/06abdcbd-7653-4975-90ef-b4b597cdb6cf" />
+
 
 
 
