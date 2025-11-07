@@ -13,7 +13,7 @@
 - emoji： Apple Color Emoji
 - icon： Symbols Nerd Font Mono
 
-**平方字体和苹果emoji不必多说。Inter风格类似于SF Pro。Maple字体有着圆润修长的字形和连字，并且使用symbols获得正确的终端icon显示**
+**苹方字体和苹果emoji不必多说。Inter风格类似于SF Pro。Maple字体有着圆润修长的字形和连字，并且使用symbols获得正确的终端icon显示**
 
 > 不用SF Pro，因为SF Pro的小字体字体间隔会很奇怪。非要用的话可以试试aur上打了mac补丁的 [freetype](https://aur.archlinux.org/packages/freetype2-macos) 。
 
