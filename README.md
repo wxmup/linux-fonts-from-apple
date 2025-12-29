@@ -61,12 +61,15 @@ yay -S otf-apple-pingfang ttf-apple-emoji ttf-maplemono-cn-unhinted
 > tips: 下载ttf-maplemono-nf-unhinted时，aur会默认下载maple的所有的分支，然后只安装其中的ttf-maplemono-cn-unhinted。无解，介意请使用arch linux cn.
 
 
+# Gnome / gtk 用户需知
 
-# 字体优先级问题与解决方案
+如果你是Gnome / gtk用户，你会发现Adwaita Sans总是会时不时被调用。这不是字体配置的锅，而是firefox读取system-ui字体簇时优先读取了gtk的字体配置。解决办法是将gtk的字体指定为你想要的，例如：
 
-就我的使用场景，新版文件已解决问题，理论上不需要在手动设置。如有问题请提issue.
+```
+gsettings set org.gnome.desktop.interface font-name "Inter 11"
+```
 
-
+这样，你就发现所有无衬线字体默认使用Inter了。
 
 # fonts.conf说明
 
